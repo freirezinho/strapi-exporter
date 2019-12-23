@@ -1,0 +1,26 @@
+{
+  "name": "strapi_exporter",
+  "version": "1.0.0",
+  "description": "Node server para exportar dados do strapi e exportar excel.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "echo \"Initializing server on development mode.\" && nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "strapi",
+    "excel"
+  ],
+  "author": "Saulo Freire",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "json2xls": "^0.1.2",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
